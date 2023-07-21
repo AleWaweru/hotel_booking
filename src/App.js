@@ -1,10 +1,13 @@
 
 import './App.css';
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
     <div className="App">
-    <h1>I LOVE YOU SWIRY</h1>
+    <Navbar/>
+    <Footer/>
     </div>
   );
 }
